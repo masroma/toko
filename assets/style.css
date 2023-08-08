@@ -28,6 +28,7 @@ body .navbar .logo {
 body .navbar .form-pencarian {
   border-top-left-radius: 0;
   border-bottom-left-radius: 0;
+  max-height: 35px;
   border-color: #dddddd;
 }
 body .navbar .form-pencarian:focus {
