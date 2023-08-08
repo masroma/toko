@@ -31,6 +31,7 @@ body .navbar .form-pencarian {
   border-left: none;
   border-color: #dddddd;
   padding-left: 40px;
+  width: 80%;
 }
 body .navbar .form-pencarian:focus {
   outline: none;
@@ -40,6 +41,7 @@ body .navbar .form-pencarian:focus {
   border-left: none;
   border-color: #dddddd;
   padding-left: 40px;
+  width: 80%;
 }
 body .navbar .btn-pencarian {
   border-top-right-radius: 0;
