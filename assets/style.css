@@ -25,9 +25,6 @@ body .navbar .logo {
   color: orange;
   font-weight: 600;
 }
-body .navbar .form-navbar {
-  flex: 9;
-}
 body .navbar .form-pencarian {
   border-top-left-radius: 0;
   border-bottom-left-radius: 0;
