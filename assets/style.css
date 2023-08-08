@@ -30,10 +30,16 @@ body .navbar .form-pencarian {
   border-bottom-left-radius: 0;
   border-left: none;
   border-color: #dddddd;
+  padding-left: 40px;
 }
 body .navbar .form-pencarian:focus {
   outline: none;
   box-shadow: none;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  border-left: none;
+  border-color: #dddddd;
+  padding-left: 40px;
 }
 body .navbar .btn-pencarian {
   border-top-right-radius: 0;
@@ -42,6 +48,8 @@ body .navbar .btn-pencarian {
   padding-right: 0;
   border-color: #dddddd;
   color: #999999;
+  margin-right: -50px;
+  z-index: 1000;
 }
 body .navbar .form-pencarian::-moz-placeholder {
   font-size: 12px; /* Change this value as needed */
