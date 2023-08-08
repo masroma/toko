@@ -24,15 +24,11 @@ body .navbar .logo {
   color: orange;
   font-weight: 600;
 }
-body .navbar .form-navbar {
-  flex: 8;
-}
 body .navbar .form-pencarian {
   border-top-left-radius: 0;
   border-bottom-left-radius: 0;
   border-left: none;
   border-color: #dddddd;
-  width: 100%;
 }
 body .navbar .form-pencarian:focus {
   outline: none;
@@ -60,10 +56,9 @@ body .navbar .btn-pencarian:hover {
   font-weight: 700;
 }
 body .navbar .iconkanan {
-  flex: 1;
-  align-items: center;
-  text-align: center;
+  display: flex;
+  justify-content: flex-end; /* Memposisikan isi di sebelah kanan */
 }
-body .navbar .iconkanan i {
+body .navbar .iconkanan .nav-link {
   color: #999999;
 }/*# sourceMappingURL=style.css.map */
