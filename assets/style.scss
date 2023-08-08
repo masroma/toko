@@ -21,6 +21,7 @@ body {
 
     .navbar{
         box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+        justify-content: space-between;
 
         // background-color: transparent;
 
@@ -32,7 +33,7 @@ body {
 
         .form-navbar{
             // border: 1px red solid;
-            // flex: 9;
+            flex: 9;
         }
 
         .form-pencarian{
@@ -69,16 +70,18 @@ body {
             font-weight: 700;
         }
 
-        .iconkanan {
-            // flex: 1;
-            // border: 1px red solid;
-            display: flex;
-            justify-content: flex-end; /* Memposisikan isi di sebelah kanan */
-          
-            .nav-link{
+        .nav-link{
+           
+           
+            margin-left: auto;
+
+            a{
+                text-decoration: none;
                 color: #999999;
             }
         }
+
+      
         
     }
 }
