@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    height: 100%;
+    background-color: #f0f0f0;
+
+    .container{
+        max-width: 512px;
+        min-height: 100vh;
+        // border: 1px red solid;
+        background-color: #fff;
+        box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1); 
+        padding: 0;
+        background-color: #F5F5F5;
+
+    }
+
+    .navbar{
+        box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+
+        // background-color: transparent;
+
+        .logo{
+            text-decoration: none;
+            color: orange;
+            font-weight: 600;
+        }
+
+        .form-navbar{
+            // border: 1px red solid;
+            flex: 8;
+        }
+
+        .form-pencarian{
+            // border-radius: 0;
+            border-top-left-radius: 0;
+            border-bottom-left-radius: 0;
+            border-left: none;
+            border-color:  #dddddd;
+            width: 100%;
+        }
+
+        .form-pencarian:focus{
+            outline: none;
+            box-shadow: none; 
+        }
+
+        .btn-pencarian{
+            border-top-right-radius: 0;
+            border-bottom-right-radius: 0;
+            border-right: none;
+            padding-right: 0;
+            border-color:  #dddddd;
+            color: #999999
+        }
+
+        .form-pencarian::placeholder {
+            font-size: 12px; /* Change this value as needed */
+            color: #999999;
+          }
+
+        .btn-pencarian:hover{
+            background-color: #ffff;
+            color: black;
+            font-weight: 700;
+        }
+
+        .iconkanan{
+            flex: 1;
+            // border: 1px red solid;
+            align-items: center;
+            text-align: center;
+            i{
+                color: #999999;
+            }
+        }
+        
+    }
+}
