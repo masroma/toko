@@ -40,10 +40,10 @@ body {
             // border-radius: 0;
             border-top-left-radius: 0;
             border-bottom-left-radius: 0;
-            border-left: none;
+            // border-left: none;
             border-color:  #dddddd;
-            padding-left: 40px;
-            width: 80%;
+            // padding-left: 40px;
+          
             
             
         }
@@ -53,10 +53,10 @@ body {
             box-shadow: none; 
             border-top-left-radius: 0;
             border-bottom-left-radius: 0;
-            border-left: none;
+           
             border-color:  #dddddd;
-            padding-left: 40px;
-            width: 80%;
+          
+           
         }
 
         .btn-pencarian{
@@ -66,8 +66,9 @@ body {
             padding-right: 0;
             border-color:  #dddddd;
             color: #999999;
-            margin-right: -50px;
+            // margin-right: -250px;
             z-index: 1000;
+            // background-color: orange;
         }
 
         .form-pencarian::placeholder {
